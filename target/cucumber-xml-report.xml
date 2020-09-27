@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="10.363603">
+<testcase classname="Resultpage functionality" name="click on travel" time="10.363603">
+<skipped><![CDATA[Given User is in the homepage of Argos website..............................passed
+When User types any product to search in the search box and clicks on the search button.passed
+Then User should be able to see all the products related to search..........passed
+Given user in nike result page..............................................undefined
+When user clicks on travel category.........................................undefined
+Then user can see travel category products..................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

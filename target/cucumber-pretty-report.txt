@@ -1,0 +1,12 @@
+Feature: Resultpage functionality
+
+  Background:                                                                               [90m# C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/ResultPage.feature:3[0m
+    [32mGiven [0m[32mUser is in the homepage of Argos website[0m                                          [90m# Homepage_SearchBox.user_is_in_the_homepage_of_Argos_website()[0m
+    [32mWhen [0m[32mUser types any product to search in the search box and clicks on the search button[0m [90m# Homepage_SearchBox.user_types_any_product_to_search_in_the_search_box_and_clicks_on_the_search_button()[0m
+    [32mThen [0m[32mUser should be able to see all the products related to search[0m                      [90m# Homepage_SearchBox.user_should_be_able_to_see_all_the_products_related_to_search()[0m
+
+  @Travel
+  Scenario: click on travel                    [90m# C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/ResultPage.feature:10[0m
+    [33mGiven [0m[33muser in nike result page[0m
+    [33mWhen [0m[33muser clicks on travel category[0m
+    [33mThen [0m[33muser can see travel category products[0m
