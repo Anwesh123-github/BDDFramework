@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8008878600,
+  "duration": 13226239601,
   "status": "passed"
 });
 formatter.background({
@@ -36,21 +36,21 @@ formatter.match({
   "location": "Homepage_SearchBox.user_is_in_the_homepage_of_Argos_website()"
 });
 formatter.result({
-  "duration": 95135600,
+  "duration": 170056000,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_SearchBox.user_types_any_product_to_search_in_the_search_box_and_clicks_on_the_search_button()"
 });
 formatter.result({
-  "duration": 2185958100,
+  "duration": 2791041601,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_SearchBox.user_should_be_able_to_see_all_the_products_related_to_search()"
 });
 formatter.result({
-  "duration": 73599800,
+  "duration": 131803999,
   "status": "passed"
 });
 formatter.scenario({
@@ -82,20 +82,29 @@ formatter.step({
   "name": "user can see travel category products",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Resultpage_TravelCategory.user_in_nike_result_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1006358800,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Resultpage_TravelCategory.user_clicks_on_travel_category()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 34401,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Resultpage_TravelCategory.user_can_see_travel_category_products()"
+});
+formatter.result({
+  "duration": 39000,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 30500,
+  "duration": 40900,
   "status": "passed"
 });
 });

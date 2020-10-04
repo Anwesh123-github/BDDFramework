@@ -7,6 +7,6 @@ Feature: Resultpage functionality
 
   @Travel
   Scenario: click on travel                    [90m# C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/ResultPage.feature:10[0m
-    [33mGiven [0m[33muser in nike result page[0m
-    [33mWhen [0m[33muser clicks on travel category[0m
-    [33mThen [0m[33muser can see travel category products[0m
+    [32mGiven [0m[32muser in nike result page[0m             [90m# Resultpage_TravelCategory.user_in_nike_result_page()[0m
+    [32mWhen [0m[32muser clicks on travel category[0m        [90m# Resultpage_TravelCategory.user_clicks_on_travel_category()[0m
+    [32mThen [0m[32muser can see travel category products[0m [90m# Resultpage_TravelCategory.user_can_see_travel_category_products()[0m

@@ -6,16 +6,16 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features = "C:\\Users\\anwes\\IdeaProjects\\BDDFramework\\src\\test\\Resoruces\\HomePage.feature",tags = {"@MultipleInput"})
-//@CucumberOptions(features = "C:\\Users\\anwes\\IdeaProjects\\BDDFramework\\src\\test\\Resoruces\\ResultPage.feature",tags = {"@Travel"},
-//plugin = {"html:target/cucumber-html-report",
-  //      "json:target/cucumber-json-report.json",
-    //    "junit:target/cucumber-xml-report.xml",
-      //  "pretty:target/cucumber-pretty-report.txt"
+//@CucumberOptions(features = "C:\\Users\\anwes\\IdeaProjects\\BDDFramework\\src\\test\\Resoruces\\HomePage.feature",tags = {"@MultipleInput"})
+@CucumberOptions(features = "C:\\Users\\anwes\\IdeaProjects\\BDDFramework\\src\\test\\Resoruces\\ResultPage.feature",tags = {"@Travel"},
+plugin = {"html:target/cucumber-html-report",
+      "json:target/cucumber-json-report.json",
+       "junit:target/cucumber-xml-report.xml",
+       "pretty:target/cucumber-pretty-report.txt"
 
-//} //plugin ends
+} //
 
-//)
+)
 public class RunCukeTest {
 
 
@@ -31,6 +31,10 @@ public class RunCukeTest {
 
 //push into my own branch
 
+
 //this is demo2
+
+
+//this is the pull command demo
 
 
