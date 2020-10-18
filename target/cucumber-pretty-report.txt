@@ -1,12 +1,7 @@
-Feature: Resultpage functionality
+Feature: Iceland Search Box
 
-  Background:                                                                               [90m# C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/ResultPage.feature:3[0m
-    [32mGiven [0m[32mUser is in the homepage of Argos website[0m                                          [90m# Homepage_SearchBox.user_is_in_the_homepage_of_Argos_website()[0m
-    [32mWhen [0m[32mUser types any product to search in the search box and clicks on the search button[0m [90m# Homepage_SearchBox.user_types_any_product_to_search_in_the_search_box_and_clicks_on_the_search_button()[0m
-    [32mThen [0m[32mUser should be able to see all the products related to search[0m                      [90m# Homepage_SearchBox.user_should_be_able_to_see_all_the_products_related_to_search()[0m
-
-  @Travel
-  Scenario: click on travel                    [90m# C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/ResultPage.feature:10[0m
-    [32mGiven [0m[32muser in nike result page[0m             [90m# Resultpage_TravelCategory.user_in_nike_result_page()[0m
-    [32mWhen [0m[32muser clicks on travel category[0m        [90m# Resultpage_TravelCategory.user_clicks_on_travel_category()[0m
-    [32mThen [0m[32muser can see travel category products[0m [90m# Resultpage_TravelCategory.user_can_see_travel_category_products()[0m
+  @IcelandRegression
+  Scenario: Iceland Search Functionality                                  [90m# C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/IcelandHomepage.feature:5[0m
+    [32mGiven [0m[32mUser is in the iceland website[0m                                  [90m# Homepage_IcelandSearch.user_is_in_the_iceland_website()[0m
+    [32mWhen [0m[32mUser types an item in the search box and clicks on search button[0m [90m# Homepage_IcelandSearch.user_types_an_item_in_the_search_box_and_clicks_on_search_button()[0m
+    [32mThen [0m[32mUser should be able to see all the products related to that item[0m [90m# Homepage_IcelandSearch.user_should_be_able_to_see_all_the_products_related_to_that_item()[0m

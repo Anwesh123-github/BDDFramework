@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.325614">
-<testcase classname="Resultpage functionality" name="click on travel" time="17.325614">
-<system-out><![CDATA[Given User is in the homepage of Argos website..............................passed
-When User types any product to search in the search box and clicks on the search button.passed
-Then User should be able to see all the products related to search..........passed
-Given user in nike result page..............................................passed
-When user clicks on travel category.........................................passed
-Then user can see travel category products..................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.380973">
+<testcase classname="Iceland Search Box" name="Iceland Search Functionality" time="23.380973">
+<system-out><![CDATA[Given User is in the iceland website........................................passed
+When User types an item in the search box and clicks on search button.......passed
+Then User should be able to see all the products related to that item.......passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -20,6 +20,8 @@ public class FilterPage_AddtoBasket {
     public void user_clicks_on_go_to_trolley_button() throws Throwable {
         filterPage.GotoTrolley();
 
+        Thread.sleep(5000);
+
     }
 
     @Then("^user should be able to see the product in the basket$")

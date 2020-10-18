@@ -1,110 +1,67 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/ResultPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/anwes/IdeaProjects/BDDFramework/src/test/Resoruces/IcelandHomepage.feature");
 formatter.feature({
   "line": 1,
-  "name": "Resultpage functionality",
+  "name": "Iceland Search Box",
   "description": "",
-  "id": "resultpage-functionality",
+  "id": "iceland-search-box",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 13226239601,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is in the homepage of Argos website",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "User types any product to search in the search box and clicks on the search button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "User should be able to see all the products related to search",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Homepage_SearchBox.user_is_in_the_homepage_of_Argos_website()"
-});
-formatter.result({
-  "duration": 170056000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Homepage_SearchBox.user_types_any_product_to_search_in_the_search_box_and_clicks_on_the_search_button()"
-});
-formatter.result({
-  "duration": 2791041601,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Homepage_SearchBox.user_should_be_able_to_see_all_the_products_related_to_search()"
-});
-formatter.result({
-  "duration": 131803999,
+  "duration": 10684356400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "click on travel",
+  "line": 5,
+  "name": "Iceland Search Functionality",
   "description": "",
-  "id": "resultpage-functionality;click-on-travel",
+  "id": "iceland-search-box;iceland-search-functionality",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 9,
-      "name": "@Travel"
+      "line": 3,
+      "name": "@IcelandRegression"
     }
   ]
 });
 formatter.step({
-  "line": 12,
-  "name": "user in nike result page",
+  "line": 7,
+  "name": "User is in the iceland website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 13,
-  "name": "user clicks on travel category",
+  "line": 8,
+  "name": "User types an item in the search box and clicks on search button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 14,
-  "name": "user can see travel category products",
+  "line": 9,
+  "name": "User should be able to see all the products related to that item",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Resultpage_TravelCategory.user_in_nike_result_page()"
+  "location": "Homepage_IcelandSearch.user_is_in_the_iceland_website()"
 });
 formatter.result({
-  "duration": 1006358800,
+  "duration": 198987900,
   "status": "passed"
 });
 formatter.match({
-  "location": "Resultpage_TravelCategory.user_clicks_on_travel_category()"
+  "location": "Homepage_IcelandSearch.user_types_an_item_in_the_search_box_and_clicks_on_search_button()"
 });
 formatter.result({
-  "duration": 34401,
+  "duration": 2387379700,
   "status": "passed"
 });
 formatter.match({
-  "location": "Resultpage_TravelCategory.user_can_see_travel_category_products()"
+  "location": "Homepage_IcelandSearch.user_should_be_able_to_see_all_the_products_related_to_that_item()"
 });
 formatter.result({
-  "duration": 39000,
+  "duration": 109533400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 40900,
+  "duration": 10000715200,
   "status": "passed"
 });
 });

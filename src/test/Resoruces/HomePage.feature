@@ -32,3 +32,15 @@ Feature: Homepage Functionality
           |products|
           |nike    |
           |puma    |
+
+
+  @Calender
+
+  Scenario: Calender Date
+
+    Given User in the homepage of expedia
+    And User clicks on flight button
+    And User clicks on departing field tab
+    When User takes all the dates in the list
+    And User clicks on one particular date
+    Then User should be able to select the date on which he wants to travel
